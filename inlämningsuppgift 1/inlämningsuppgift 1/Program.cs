@@ -32,7 +32,7 @@ namespace inlämningsuppgift_1
                     Console.WriteLine ("Inte ens ett nummer");
                 }
                 }
-            }
+            
         }
     }
 }
