@@ -12,7 +12,7 @@ namespace inlämningsuppgift_1
             bool loop=true;
             Console.WriteLine("Gissa ett tal mellan 1 och 100");
             while (loop == true)  {
-                int g=convert.ToInt32(Console.ReadLine());
+                int g=Convert.ToInt32(Console.ReadLine());
                 f++;
                 if (g == num)
                 {
@@ -26,12 +26,12 @@ namespace inlämningsuppgift_1
                 }
                 else if (g >= num)
                 {
-                    console.WriteLine("För högt");
+                    Console.WriteLine("För högt");
                 }
                 else {
                     Console.WriteLine ("Inte ens ett nummer");
                 }
-                }
+            }
             
         }
     }
